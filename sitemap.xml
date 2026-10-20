@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Add one <url> per published guide: https://globalacademymarket.com/guides/<slug>/ -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://globalacademymarket.com/</loc></url>
+  <url><loc>https://globalacademymarket.com/about/</loc></url>
+  <url><loc>https://globalacademymarket.com/support/</loc></url>
+  <url><loc>https://globalacademymarket.com/terms/</loc></url>
+  <url><loc>https://globalacademymarket.com/privacy/</loc></url>
+  <url><loc>https://globalacademymarket.com/refunds/</loc></url>
+  <url><loc>https://globalacademymarket.com/disclaimer/</loc></url>
+</urlset>

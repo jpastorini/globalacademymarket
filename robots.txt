@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /guides/example-guide/
+Allow: /
+
+Sitemap: https://globalacademymarket.com/sitemap.xml
