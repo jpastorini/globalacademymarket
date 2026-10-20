@@ -15,8 +15,19 @@
   <link rel="stylesheet" href="/assets/site.css">
   <link rel="stylesheet" href="/assets/landing.css">
 
-  <!-- META PIXEL: paste this offer's pixel base code here (one pixel per offer).
-       Fire PageView here; Hotmart fires InitiateCheckout and Purchase. -->
+  <!-- Meta Pixel (GAM Pixel 2196998741214080): PageView on every page. Hotmart fires InitiateCheckout and Purchase. -->
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2196998741214080');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" alt=""
+  src="https://www.facebook.com/tr?id=2196998741214080&ev=PageView&noscript=1"></noscript>
+  <!-- End Meta Pixel -->
 </head>
 <body class="lp no-js">
   <!--
@@ -27,7 +38,7 @@
   3. Put this guide's images in its folder (WebP, 720×900 portrait or 900×600 landscape, under ~90 KB)
      and swap the /assets/img/ examples. Never use a competitor's images.
   4. Set CHECKOUT_URL at the bottom to the Hotmart checkout link. Set the price in the 3 places it appears.
-  5. Paste the pixel in <head>, remove the robots noindex line, add the guide to the home page and sitemap.xml.
+  5. The GAM Pixel is already in <head> (keep it). Remove the robots noindex line, add the guide to the home page and sitemap.xml.
   Rules: no checkout button above the offer block (the bottom bar only jumps to the offer until the
   offer has been seen); show the price; only real reviews; believable promises; no fake countdowns or "only X left".
   -->
